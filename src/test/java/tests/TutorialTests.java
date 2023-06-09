@@ -1,6 +1,8 @@
 package tests;
 
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -9,6 +11,8 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
+@Story("Tutorial tests")
+@Owner("Alena Shomanova")
 public class TutorialTests extends TestBase {
     @Test
     @DisplayName("Verify that tutorial page content is correct")
@@ -35,17 +39,13 @@ public class TutorialTests extends TestBase {
     @Test
     @DisplayName("Verify that a new game can be started directly from tutorial")
     void gameTutorialStartTest() {
-        step("Open the TUTORIAL section", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/tutorial")).click();
-        });
-        step("Start a game from the tutorial page", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/playGame")).click();
-        });
-        step("Verify that the game started", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/tapToBegin")).should(exist);
-        });
-        step("Verify that the started game is on EASY MODE", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/minesCount")).shouldHave(text("10"));
-        });
+        step("Open the TUTORIAL section", () ->
+                $(AppiumBy.id("dev.lucanlm.antimine:id/tutorial")).click());
+        step("Start a game from the tutorial page", () ->
+                $(AppiumBy.id("dev.lucanlm.antimine:id/playGame")).click());
+        step("Verify that the game started", () ->
+            $(AppiumBy.id("dev.lucanlm.antimine:id/tapToBegin")).should(exist));
+        step("Verify that the started game is on EASY MODE", () ->
+            $(AppiumBy.id("dev.lucanlm.antimine:id/minesCount")).shouldHave(text("10")));
     }
 }

@@ -1,6 +1,8 @@
 package tests;
 
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -8,6 +10,8 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
+@Story("Main page tests")
+@Owner("Alena Shomanova")
 public class MainPageTests extends TestBase {
 
     @Test
@@ -37,18 +41,14 @@ public class MainPageTests extends TestBase {
     @Test
     @DisplayName("Verify that the ABOUT page content is correct")
     void aboutPageContentTest() {
-        step("Open the ABOUT section", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/about")).click();
-        });
-        step("Verify that the ABOUT page has the app name", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/app_name")).shouldHave(text("ANTIMINE"));
-        });
-        step("Verify that the ABOUT page has the info about app version", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/version")).shouldHave(text("Version"));
-        });
-        step("Verify that the ABOUT page has credits to the artist", () -> {
-            $(AppiumBy.id("dev.lucanlm.antimine:id/musicBy")).shouldHave(text("MUSIC BY TATYANA JACQUES"));
-        });
+        step("Open the ABOUT section", () ->
+            $(AppiumBy.id("dev.lucanlm.antimine:id/about")).click());
+        step("Verify that the ABOUT page has the app name", () ->
+            $(AppiumBy.id("dev.lucanlm.antimine:id/app_name")).shouldHave(text("ANTIMINE")));
+        step("Verify that the ABOUT page has the info about app version", () ->
+            $(AppiumBy.id("dev.lucanlm.antimine:id/version")).shouldHave(text("Version")));
+        step("Verify that the ABOUT page has credits to the artist", () ->
+            $(AppiumBy.id("dev.lucanlm.antimine:id/musicBy")).shouldHave(text("MUSIC BY TATYANA JACQUES")));
         step("Verify that the ABOUT page has all the necessary buttons", () -> {
             $(AppiumBy.id("dev.lucanlm.antimine:id/thirdsParties")).shouldHave(text("LICENSES"));
             $(AppiumBy.id("dev.lucanlm.antimine:id/translation")).shouldHave(text("TRANSLATION"));
