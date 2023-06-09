@@ -29,14 +29,6 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
     public WebDriver createDriver(Capabilities capabilities) {
         MutableCapabilities mutableCapabilities = new MutableCapabilities();
         mutableCapabilities.merge(capabilities);
-        System.out.println(config.getApp());
-        System.out.println(config.getDevice());
-        System.out.println(config.getOsVersion());
-        System.out.println(authConfig.getKey());
-        System.out.println(authConfig.getUser());
-        System.out.println(authConfig.getRemoteUrl());
-        System.out.println(authConfig.getPassword());
-
 
         // Set your access credentials
         mutableCapabilities.setCapability("browserstack.user", authConfig.getUser());

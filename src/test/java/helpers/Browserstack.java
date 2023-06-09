@@ -11,7 +11,6 @@ public class Browserstack {
     public static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class,
             System.getProperties());
     public static String getVideoUrl(String sessionId) {
-        System.out.println("Video attachment initiated");
         String url = format("https://api.browserstack.com/app-automate/sessions/%s.json", sessionId);
 
         return given()
