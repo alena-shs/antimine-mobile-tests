@@ -1,6 +1,7 @@
 package tests;
 
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.Issue;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
@@ -15,6 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class MainPageTests extends TestBase {
 
     @Test
+    @Issue("HOMEWORK-756")
     @DisplayName("Verify that the main page content is correct")
     void mainPageContentTest() {
         step("Check the availability of the buttons in the gaming section - START/NEW GAME", () -> {

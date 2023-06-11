@@ -225,34 +225,22 @@ NOTE: the video can be saved only for **remote** runs.
 <img src="images/tlgrm.png" alt="Telegram" width="400">
 </p>
 
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (# :ticket: [Jira]&#40;https://jira.autotests.cloud/&#41; integration)
 
-[//]: # ()
-[//]: # (### [Ticket linked with Allure TestOps defect]&#40;https://jira.autotests.cloud/browse/HOMEWORK-685&#41;)
 
-[//]: # (<p align="center">)
+# :ticket: [Jira](https://jira.autotests.cloud/) integration
 
-[//]: # (  <img src="images/jira-issue.PNG" alt="The defect in Jira" width="750">)
+### [Ticket linked with Allure TestOps defect](https://jira.autotests.cloud/browse/HOMEWORK-685)
+<p align="center">
+  <img src="images/jira-issue.png" alt="The defect in Jira" width="750">
+</p>
 
-[//]: # (</p>)
+###  [Main Jira ticket for this project](https://jira.autotests.cloud/browse/HOMEWORK-677)
+<p align="center">
+  <img src="images/jira-main.png" alt="The main page layout task" width="750">
+</p>
 
-[//]: # ()
-[//]: # (###  [Main page content layout Jira task]&#40;https://jira.autotests.cloud/browse/HOMEWORK-677&#41;)
 
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/jira-task-main.PNG" alt="The main page layout task" width="750">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (###  [Search from the main page Jira task]&#40;https://jira.autotests.cloud/browse/HOMEWORK-678&#41;)
-
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/jira-task-search.PNG" alt="Search from the main page task" width="750">)
-
-[//]: # (</p>)
+###  [An example of Jira task with integrated Allure test cases](https://jira.autotests.cloud/browse/HOMEWORK-677)
+<p align="center">
+  <img src="images/jira-task-main.png" alt="The main page layout task" width="750">
+</p>
