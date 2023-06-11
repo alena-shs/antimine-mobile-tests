@@ -133,117 +133,82 @@ The main page of the Allure report contains the following information blocks:
 >- <code><strong>*CATEGORIES*</strong></code> - displays the distribution of failed tests sorted by defect types
 
 <p align="center">
-  <img src="images/allure distributed.PNG" alt="Allure Report" width="650">
+  <img src="images/allure distributed.png" alt="Allure Report" width="650">
 </p>
 
-[//]: # ()
-[//]: # (### List of tests with a description of steps and visualization of results)
 
-[//]: # (This page presents the standard distribution of the tests run by user stories and test suites.)
+### List of tests with a description of steps and visualization of results
 
-[//]: # ()
-[//]: # (<p align="center">)
+This page presents the standard distribution of the tests run by user stories and test suites.
 
-[//]: # (  <img src="images/Allure Report steps.png" alt="Allure Report" width="650">)
+<p align="center">
+  <img src="images/Allure Report steps.png" alt="Allure Report" width="650">
+</p>
 
-[//]: # (</p>)
 
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (# :dart: [Allure TestOps]&#40;https://allure.autotests.cloud/project/2195/&#41; integration)
+# :dart: [Allure TestOps](https://allure.autotests.cloud/project/25366/) integration
 
-[//]: # ()
-[//]: # (> [AllureTestOps project link]&#40;https://allure.autotests.cloud/project/2195&#41; &#40;access request: admin@qa.guru&#41;)
+> [AllureTestOps project link](https://allure.autotests.cloud/project/25366) (access request: admin@qa.guru)
 
-[//]: # ()
-[//]: # (### The main dashboard)
+### Project's dashboards
 
-[//]: # (<p align="center">)
+#### Overview
 
-[//]: # (  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="650">)
+<p align="center">
+  <img src="images/allureTestOPS overview.png" alt="dashboards" width="650">
+</p>
 
-[//]: # (</p>)
+#### A sample custom dashboard
 
-[//]: # ()
-[//]: # (### Project's test plans)
+<p align="center">
+  <img src="images/allureTestOPS custom dashboard.png" alt="dashboards" width="650">
+</p>
 
-[//]: # (<p align="center">)
+### Project's test plans
 
-[//]: # (  <img src="images/allure_testplans.PNG" alt="Test plans" width="650">)
+<p align="center">
+  <img src="images/allure_testplans.png" alt="Test plans" width="650">
+</p>
 
-[//]: # (</p>)
+#### Manual test cases
+<p align="center">
+  <img src="images/testops_testplan1.png" alt="Manual test cases" width="750">
+</p>
 
-[//]: # ()
-[//]: # (#### Manual test cases)
+#### Automated test cases
+<p align="center">
+  <img src="images/testops_testplan2.png" alt="Manual test cases" width="750">
+</p>
 
-[//]: # (<p align="center">)
+### All test cases
+<p align="center">
+  <img src="images/Test cases.png" alt="test cases" width="750">
+</p>
 
-[//]: # (  <img src="images/testops_testplan1.PNG" alt="Manual test cases" width="750">)
+### Launches
+<p align="center">
+  <img src="images/allureTestOPS launches.png" alt="launches" width="650">
+</p>
 
-[//]: # (</p>)
+### Launch details
+<p align="center">
+  <img src="images/allureTestOPS launch.png" alt="launch" width="750">
+</p>
 
-[//]: # ()
-[//]: # (#### Automated test cases)
+### Defects
+<p align="center">
+  <img src="images/testOps_defect.png" alt="defects" width="750">
+</p>
 
-[//]: # (<p align="center">)
 
-[//]: # (  <img src="images/testops_testplan2.PNG" alt="Manual test cases" width="750">)
 
-[//]: # (</p>)
+# :trophy: Test results
 
-[//]: # ()
-[//]: # (### All test cases)
+### Example of a report of an autotest
 
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/Test cases.png" alt="test cases" width="750">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (### Launches)
-
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/allureTestOPS launches.png" alt="launches" width="650">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (### Launch details)
-
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/allureTestOPS launch.png" alt="launch" width="750">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (### Defects)
-
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/testOps_defect.png" alt="defects" width="750">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (# :trophy: Test results)
-
-[//]: # ()
-[//]: # (### Example of a report of an autotest)
-
-[//]: # ()
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/allureTestOPS result demo.png" alt="Results demo" width="750">)
-
-[//]: # (</p>)
-
-[//]: # ()
+<p align="center">
+  <img src="images/allureTestOPS result demo.png" alt="Results demo" width="750">
+</p>
 
 ### Video attachment example
 
@@ -251,15 +216,13 @@ There's a video attachment for each test available.
 
 NOTE: the video can be saved only for **remote** runs.
 <p align="center">
-<img title="Selenoid Video" src="images/sample-video.gif">
+<img title="Selenoid Video" src="images/sample-video.gif" width="500">
 </p>
-
-[//]: # ()
 
 ### Telegram notification example
 
 <p align="center">
-<img src="images/tlgrm.png" alt="Telegram" width="550">
+<img src="images/tlgrm.png" alt="Telegram" width="400">
 </p>
 
 [//]: # ()
