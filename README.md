@@ -105,23 +105,18 @@ allure serve build/allure-results
 
 ### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-antiminerMobileApp/)
 
-[//]: # (Please note that the following method will run the tests with the following parameters:)
+Please note that the following method will run the tests remotely on [Browserstack](https://www.browserstack.com/) with the following parameters:
 
-[//]: # (+ Browser: **Google Chrome**)
-
-[//]: # (+ Browser version: **100.0**)
-
-[//]: # (+ Browser size: **1920x1080**)
++ Device: **Google Pixel 3**
++ OS versiom: **9.0**
 
 To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-antiminerMobileApp/), specially created for this project.
 The environment is set up for the Russian language, to run it please use the button with an :arrow_forward:.
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
-[//]: # (<p  align="center">)
-
-[//]: # (<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="500">)
-
-[//]: # (</p>)
+<p  align="center">
+<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="500">
+</p>
 
 
 # :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
@@ -137,11 +132,9 @@ The main page of the Allure report contains the following information blocks:
 >- <code><strong>*SUITES*</strong></code> - displays the distribution of test results across test suites
 >- <code><strong>*CATEGORIES*</strong></code> - displays the distribution of failed tests sorted by defect types
 
-[//]: # (<p align="center">)
-
-[//]: # (  <img src="images/allure distributed.PNG" alt="Allure Report" width="650">)
-
-[//]: # (</p>)
+<p align="center">
+  <img src="images/allure distributed.PNG" alt="Allure Report" width="650">
+</p>
 
 [//]: # ()
 [//]: # (### List of tests with a description of steps and visualization of results)
@@ -251,24 +244,23 @@ The main page of the Allure report contains the following information blocks:
 [//]: # (</p>)
 
 [//]: # ()
-[//]: # (### Video attachment example)
 
-[//]: # (There's a video attachment for each test available.)
+### Video attachment example
 
-[//]: # (<p align="center">)
+There's a video attachment for each test available.
 
-[//]: # (  <img title="Selenoid Video" src="images/sample-video-web.gif">)
-
-[//]: # (</p>)
+NOTE: the video can be saved only for **remote** runs.
+<p align="center">
+<img title="Selenoid Video" src="images/sample-video.gif">
+</p>
 
 [//]: # ()
-[//]: # (### Telegram notification example)
 
-[//]: # (<p align="center">)
+### Telegram notification example
 
-[//]: # (<img src="images/tlgrm.png" alt="Telegram" width="550">)
-
-[//]: # (</p>)
+<p align="center">
+<img src="images/tlgrm.png" alt="Telegram" width="550">
+</p>
 
 [//]: # ()
 [//]: # ()
