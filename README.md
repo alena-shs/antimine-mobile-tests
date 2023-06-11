@@ -229,18 +229,20 @@ NOTE: the video can be saved only for **remote** runs.
 
 # :ticket: [Jira](https://jira.autotests.cloud/) integration
 
-### [Ticket linked with Allure TestOps defect](https://jira.autotests.cloud/browse/HOMEWORK-685)
+> [Jira task link](https://jira.autotests.cloud/browse/HOMEWORK-755) (access request: admin@qa.guru)
+
+### [Ticket linked with Allure TestOps defect](https://jira.autotests.cloud/browse/HOMEWORK-752)
 <p align="center">
   <img src="images/jira-issue.png" alt="The defect in Jira" width="750">
 </p>
 
-###  [Main Jira ticket for this project](https://jira.autotests.cloud/browse/HOMEWORK-677)
+###  [Main Jira ticket for this project](https://jira.autotests.cloud/browse/HOMEWORK-755)
 <p align="center">
   <img src="images/jira-main.png" alt="The main page layout task" width="750">
 </p>
 
 
-###  [An example of Jira task with integrated Allure test cases](https://jira.autotests.cloud/browse/HOMEWORK-677)
+###  [An example of Jira task with integrated Allure test cases](https://jira.autotests.cloud/browse/HOMEWORK-756)
 <p align="center">
   <img src="images/jira-task-main.png" alt="The main page layout task" width="750">
 </p>
