@@ -44,8 +44,8 @@ public class TutorialTests extends TestBase {
         step("Start a game from the tutorial page", () ->
                 $(AppiumBy.id("dev.lucanlm.antimine:id/playGame")).click());
         step("Verify that the game started", () ->
-            $(AppiumBy.id("dev.lucanlm.antimine:id/tapToBegin")).should(exist));
+                $(AppiumBy.id("dev.lucanlm.antimine:id/tapToBegin")).should(exist));
         step("Verify that the started game is on EASY MODE", () ->
-            $(AppiumBy.id("dev.lucanlm.antimine:id/minesCount")).shouldHave(text("10")));
+                $(AppiumBy.id("dev.lucanlm.antimine:id/minesCount")).shouldHave(text("10")));
     }
 }

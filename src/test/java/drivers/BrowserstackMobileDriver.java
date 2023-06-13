@@ -17,6 +17,7 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
             System.getProperties());
     public static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class,
             System.getProperties());
+
     public static URL getAppiumServerUrl() {
         try {
             return new URL(authConfig.getRemoteUrl());

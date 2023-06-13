@@ -44,13 +44,13 @@ public class MainPageTests extends TestBase {
     @DisplayName("Verify that the ABOUT page content is correct")
     void aboutPageContentTest() {
         step("Open the ABOUT section", () ->
-            $(AppiumBy.id("dev.lucanlm.antimine:id/about")).click());
+                $(AppiumBy.id("dev.lucanlm.antimine:id/about")).click());
         step("Verify that the ABOUT page has the app name", () ->
-            $(AppiumBy.id("dev.lucanlm.antimine:id/app_name")).shouldHave(text("ANTIMINE")));
+                $(AppiumBy.id("dev.lucanlm.antimine:id/app_name")).shouldHave(text("ANTIMINE")));
         step("Verify that the ABOUT page has the info about app version", () ->
-            $(AppiumBy.id("dev.lucanlm.antimine:id/version")).shouldHave(text("Version")));
+                $(AppiumBy.id("dev.lucanlm.antimine:id/version")).shouldHave(text("Version")));
         step("Verify that the ABOUT page has credits to the artist", () ->
-            $(AppiumBy.id("dev.lucanlm.antimine:id/musicBy")).shouldHave(text("MUSIC BY TATYANA JACQUES")));
+                $(AppiumBy.id("dev.lucanlm.antimine:id/musicBy")).shouldHave(text("MUSIC BY TATYANA JACQUES")));
         step("Verify that the ABOUT page has all the necessary buttons", () -> {
             $(AppiumBy.id("dev.lucanlm.antimine:id/thirdsParties")).shouldHave(text("LICENSES"));
             $(AppiumBy.id("dev.lucanlm.antimine:id/translation")).shouldHave(text("TRANSLATION"));

@@ -17,7 +17,7 @@ allure {
     report {
         version.set("2.19.0")
     }
-    adapter{ //отвечает за появление allure-results
+    adapter { //отвечает за появление allure-results
         aspectjWeaver.set(true) //Обработка аннотации @Step
         frameworks {
             junit5 { //framework name

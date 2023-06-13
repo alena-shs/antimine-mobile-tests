@@ -22,6 +22,7 @@ import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 public class LocalMobileDriver implements WebDriverProvider {
     public static EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class,
             System.getProperties());
+
     public static URL getAppiumServerUrl() {
         try {
             return new URL(config.getServerUrl());
@@ -32,13 +33,6 @@ public class LocalMobileDriver implements WebDriverProvider {
 
     @Override
     public WebDriver createDriver(Capabilities capabilities) {
-        System.out.println(config.getAppActivity());
-        System.out.println(config.getAppPackage());
-        System.out.println(config.getServerUrl());
-        System.out.println(config.getDeviceName());
-        System.out.println(config.getAppPath());
-        System.out.println(config.getPlatformVersion());
-        System.out.println(config.getAppUrl());
         UiAutomator2Options options = new UiAutomator2Options();
         options.merge(capabilities);
 
