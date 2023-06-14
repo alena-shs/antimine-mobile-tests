@@ -13,7 +13,7 @@ import static io.qameta.allure.Allure.step;
 
 @Story("Main page tests")
 @Owner("Alena Shomanova")
-public class MainPageTests extends TestBase {
+public class MainPageNavigationTests extends TestBase {
 
     @Test
     @Issue("HOMEWORK-756")
