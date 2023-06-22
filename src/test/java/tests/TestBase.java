@@ -2,7 +2,6 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
-//import drivers.BrowserstackMobileDriver;
 import drivers.BrowserstackMobileDriver;
 import drivers.LocalMobileDriver;
 import helpers.Attach;
@@ -45,7 +44,6 @@ public class TestBase {
     @AfterEach
     void afterEach() {
         String sessionId = sessionId().toString();
-//        Attach.screenshotAs("Last screenshot"); // todo
         Attach.pageSource();
 
         closeWebDriver();

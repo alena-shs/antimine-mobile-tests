@@ -17,7 +17,7 @@ public class MainPageNavigationTests extends TestBase {
 
     @Test
     @Issue("HOMEWORK-756")
-    @DisplayName("Verify that the main page content is correct")
+    @DisplayName("Verify that the main page has all the required links")
     void mainPageContentTest() {
         step("Check the availability of the buttons in the gaming section - START/NEW GAME", () -> {
             $(AppiumBy.id("dev.lucanlm.antimine:id/continueGame")).shouldHave(text("START"));
@@ -41,7 +41,7 @@ public class MainPageNavigationTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Verify that the ABOUT page content is correct")
+    @DisplayName("Verify that the ABOUT page has all the required content")
     void aboutPageContentTest() {
         step("Open the ABOUT section", () ->
                 $(AppiumBy.id("dev.lucanlm.antimine:id/about")).click());

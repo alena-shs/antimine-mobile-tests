@@ -15,7 +15,7 @@ import static io.qameta.allure.Allure.step;
 @Owner("Alena Shomanova")
 public class TutorialTests extends TestBase {
     @Test
-    @DisplayName("Verify that tutorial page content is correct")
+    @DisplayName("Verify that tutorial page has all the required content")
     void tutorialContentTest() {
         step("Open the TUTORIAL section", () -> {
             $(AppiumBy.id("dev.lucanlm.antimine:id/tutorial")).click();

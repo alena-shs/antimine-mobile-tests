@@ -18,10 +18,10 @@
 ## :runner: Test cases run
 ### Automated test cases
 - Main page tests
-  - [x] Verify that the main page content is correct
-  - [x] Verify that the ABOUT page content is correct
+  - [x] Verify that the main page has all the required links
+  - [x] Verify that the ABOUT page has all the required content
 - Tutorial tests
-  - [x] Verify that tutorial page content is correct
+  - [x] Verify that tutorial page has all the required content
   - [x] Verify that a new game can be started directly from tutorial
 ### Manual test cases
 - Main page
@@ -103,14 +103,14 @@ To get the report:
 allure serve build/allure-results
 ```
 
-### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-antiminerMobileApp/)
+### Using [Jenkins](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-antiminerMobileApp/)
 
 Please note that the following method will run the tests remotely on [Browserstack](https://www.browserstack.com/) with the following parameters:
 
 + Device: **Google Pixel 3**
 + OS versiom: **9.0**
 
-To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-antiminerMobileApp/), specially created for this project.
+To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-antiminerMobileApp/), specially created for this project.
 The environment is set up for the Russian language, to run it please use the button with an :arrow_forward:.
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
@@ -119,7 +119,7 @@ You can see the results via Allure Reports, or use the link to Allure TestOps.
 </p>
 
 
-# :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
+# :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-antiminerMobileApp/allure/)</a>
 
 #### Overview
 The main page of the Allure report contains the following information blocks:
@@ -146,9 +146,9 @@ This page presents the standard distribution of the tests run by user stories an
 </p>
 
 
-# :dart: [Allure TestOps](https://allure.autotests.cloud/project/25366/) integration
+# :dart: [Allure TestOps](https://allure.autotests.cloud/project/3374/) integration
 
-> [AllureTestOps project link](https://allure.autotests.cloud/project/25366) (access request: admin@qa.guru)
+> [AllureTestOps project link](https://allure.autotests.cloud/project/3374/) (access request: admin@qa.guru)
 
 ### Project's dashboards
 
