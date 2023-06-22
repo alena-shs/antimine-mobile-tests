@@ -7,7 +7,7 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
@@ -17,7 +17,7 @@ public class MainPageNavigationTests extends TestBase {
 
     @Test
     @Issue("HOMEWORK-756")
-    @DisplayName("Verify that the main page has all the required links")
+    @DisplayName("Verify that the main page has all the required menu items")
     void mainPageContentTest() {
         step("Check the availability of the buttons in the gaming section - START/NEW GAME", () -> {
             $(AppiumBy.id("dev.lucanlm.antimine:id/continueGame")).shouldHave(text("START"));

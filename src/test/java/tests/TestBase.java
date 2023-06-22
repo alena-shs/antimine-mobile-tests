@@ -14,14 +14,10 @@ import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestBase {
-    public static String env = System.getProperty("env");
+    public static String env = System.getProperty("env", "emulator");
 
     @BeforeAll
     public static void setup() {
-        if (env == null) {
-            env = "emulator";
-        }
-
         switch (env) {
             case "emulator":
                 Configuration.browser = LocalMobileDriver.class.getName();

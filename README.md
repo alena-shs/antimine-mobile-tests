@@ -18,7 +18,7 @@
 ## :runner: Test cases run
 ### Automated test cases
 - Main page tests
-  - [x] Verify that the main page has all the required links
+  - [x] Verify that the main page has all the required menu items
   - [x] Verify that the ABOUT page has all the required content
 - Tutorial tests
   - [x] Verify that tutorial page has all the required content
@@ -83,10 +83,12 @@ If you encountered this situation, please raise an issue, or contact me directly
 #### Locally
 
 Preconditions for this method:
++ Appium GUI is installed
 + Android Studio is installed (with Virtual Device Manager available)
 + The following device is added:
 >+ Device name: **Pixel 4 API 30**
 >+ Platform version: **11.0**
++ Appium server is running
 + The AVD is running in the emulator (:arrow_forward: button)
 
 This is how the setup will look like: (press :arrow_forward:)
@@ -96,7 +98,7 @@ This is how the setup will look like: (press :arrow_forward:)
 
 To run the automated tests:
 ```bash
-gradle clean test -Denv='emulator'
+gradle clean test
 ```
 To get the report:
 ```bash
